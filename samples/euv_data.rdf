@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.org/dc/terms/"
+    xmlns:j.2="http://purl.obolibrary.org/obo/"
+    xmlns:j.3="http://vivoweb.org/ontology/core/de#"
+    xmlns:j.4="http://aims.fao.org/aos/geopolitical.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.5="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.6="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.7="http://vivoweb.org/ontology/core#"
+    xmlns:j.8="http://xmlns.com/foaf/0.1/" > 
+    <!-- Fakultäten -->   
+    <!-- Juristische Fakultät -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n6086">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n7860"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juristische Fakultät</rdfs:label>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n428"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n420"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n5517"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n5517">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6086"/>
+        <rdfs:label>Bürgerliches Recht</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n428">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6086"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <rdfs:label>Polnisches Recht</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n7860">
+        <rdfs:label>Öffentliches Recht</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6086"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n420">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6086"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:label>Strafrecht</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </rdf:Description>    
+    <!-- Kulturwissenschaftliche Fakultät -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n6457">
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n4583"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kulturwissenschaftliche Fakultät</rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n7516"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n1357"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n5857"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n1357">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6457"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Kulturgeschichte</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n7516">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdfs:label>Sprachwissenschaften</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6457"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n4583">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6457"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>Vergleichende Sozialwissenschaften</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n5857">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6457"/>
+        <rdfs:label>Literaturwissenschaften</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    <!-- Wirtschaftswissenschaftliche Fakultät -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n3268">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6735"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n2696"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core/de#Fakultaet"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n5500"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.2:BFO_0000051 rdf:resource="http://192.168.56.10:8080/vivo/individual/n1046"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wirtschaftswissenschaftliche Fakultät</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n1046">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n3268"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finance, Accounting, Controlling &amp; Taxation (FACT)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n5500">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n3268"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label>Information &amp; Operations Management (IOM)</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n6735">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdfs:label>Management &amp; Marketing (M &amp; M)</rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n3268"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n2696">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>Finance &amp; International Economics (FINE)</rdfs:label>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n3268"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+    </rdf:Description>
+    <!-- Lehrstuhl -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n2020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur für Volkswirtschaftslehre</rdfs:label>
+        <j.2:BFO_0000050 rdf:resource="http://192.168.56.10:8080/vivo/individual/n2696"/>
+        <j.7:contributingRole rdf:resource="http://192.168.56.10:8080/vivo/individual/n4154"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core/de#Lehrstuhl"/>
+    </rdf:Description>
+    <!-- Herr Mustermann -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n6462">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustermann, Ingo </rdfs:label>
+        <j.2:RO_0000053 rdf:resource="http://192.168.56.10:8080/vivo/individual/n4154"/>
+        <j.2:ARG_2000028 rdf:resource="http://192.168.56.10:8080/vivo/individual/n8107"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FacultyMember"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n8107">
+        <j.5:hasName rdf:resource="http://192.168.56.10:8080/vivo/individual/n5305"/>
+        <j.2:ARG_2000029 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6462"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Individual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n5305">
+        <j.5:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustermann</j.5:familyName>
+        <j.5:givenName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ingo</j.5:givenName>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Name"/>
+    </rdf:Description>
+   <!-- headof - wird auf der Seite des Lehrstuhls zum Contributor -->    
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n4154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professor</rdfs:label>
+        <j.7:roleContributesTo rdf:resource="http://192.168.56.10:8080/vivo/individual/n2020"/>
+        <j.7:dateTimeInterval rdf:resource="http://192.168.56.10:8080/vivo/individual/n2993"/>
+        <j.2:RO_0000052 rdf:resource="http://192.168.56.10:8080/vivo/individual/n6462"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#LeaderRole"/>
+    </rdf:Description>
+    <!-- Datum Lehrstuhl -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n2993">
+        <j.7:start rdf:resource="http://192.168.56.10:8080/vivo/individual/n1281"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeInterval"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n1281">
+        <j.7:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</j.7:dateTime>
+        <j.7:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearPrecision"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+    </rdf:Description>
+    <!-- Publikation -->
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n79">
+        <j.8:relatedBy rdf:resource="http://192.168.56.10:8080/vivo/individual/n2782"/><!-- ok -->
+        <j.8:relatedBy rdf:resource="http://192.168.56.10:8080/vivo/individual/n332"/><!-- ok -->
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keep it sample: sampling strategies for unordered response models with fixes effects</rdfs:label>
+        <j.3:oa_green_url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mpra.ub.uni-muenchen.de/42862/1/MPRA_paper_42862.pdf</j.3:oa_green_url>
+        <j.2:ARG_2000028 rdf:resource="http://192.168.56.10:8080/vivo/individual/n4605"/><!-- ok -->
+        <j.7:doi>10.1016/j.mathsocsci.2013.09.001</j.7:doi>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <j.7:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.cesifo-group.de/portal/page/portal/CFP_CONF/CFP_CONF_2013/Conf-del13-Moutos/Papers/del13_Schroeder.pdf</j.7:uri>
+        <j.8:dateTimeValue rdf:resource="http://192.168.56.10:8080/vivo/individual/n73"/><!-- ok -->
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n2782">
+        <j.8:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</j.8:rank>
+        <j.8:relates rdf:resource="http://192.168.56.10:8080/vivo/individual/n79"/><!-- ok -->
+        <j.8:relates rdf:resource="http://192.168.56.10:8080/vivo/individual/n6462"/><!-- ok -->
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n332">
+        <j.8:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</j.8:rank>
+        <j.8:relates rdf:resource="http://192.168.56.10:8080/vivo/individual/n79"/><!-- ok -->
+        <j.8:relates rdf:resource="http://192.168.56.10:8080/vivo/individual/n732"/><!-- ok -->
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n4605">
+        <j.5:hasURL rdf:resource="http://192.168.56.10:8080/vivo/individual/n7619"/><!-- ok -->
+        <j.2:ARG_2000029 rdf:resource="http://192.168.56.10:8080/vivo/individual/n79"/><!-- ok -->
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n732">
+        <j.8:relatedBy rdf:resource="http://192.168.56.10:8080/vivo/individual/n332"/><!-- ok -->
+        <j.8:relatedBy rdf:resource="http://192.168.56.10:8080/vivo/individual/n6734"/><!-- ok -->
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doe, Maximilian</rdfs:label>
+        <j.2:ARG_2000028 rdf:resource="http://192.168.56.10:8080/vivo/individual/n8065"/><!-- ok -->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n3178">
+        <j.5:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doe</j.5:familyName>
+        <j.5:givenName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maximilian</j.5:givenName>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Name"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n6734">
+        <j.8:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</j.8:rank>
+        <j.8:relates rdf:resource="http://192.168.56.10:8080/vivo/individual/n732"/><!-- ok -->
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n8065">
+        <j.5:hasName rdf:resource="http://192.168.56.10:8080/vivo/individual/n3178"/><!-- ok -->
+        <j.2:ARG_2000029 rdf:resource="http://192.168.56.10:8080/vivo/individual/n732"/><!-- ok -->
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Individual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n7619">
+        <j.5:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.cesifo-group.de/portal/page/portal/CFP_CONF/CFP_CONF_2013/Conf-del13-Moutos/Papers/del13_Schroeder.pdf</j.5:url>
+        <rdfs:label>Online Publication</rdfs:label>
+        <j.8:rank rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</j.8:rank>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#URL"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://192.168.56.10:8080/vivo/individual/n73">
+        <j.8:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-01T00:00:00</j.8:dateTime>
+        <j.8:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearPrecision"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+    </rdf:Description>
+</rdf:RDF>
