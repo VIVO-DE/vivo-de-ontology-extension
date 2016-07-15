@@ -32,14 +32,14 @@ Die Erweiterung ist notwendig, da diverse Institutionen, Forschungseinrichtungen
 
 # Weiteres:
 
-* Erläuterungen zu den Klassen werden wir in einem wiki dokumentieren. https://github.com/kseuv/vivo-de-ontology-extension/wiki
-* Eine Übersetzung der VIVO-Oberfläche befindet sich hier https://github.com/VIVO-DE/Vitro-languages
+* Erläuterungen zu den Klassen werden im Wiki dokumentiert: https://github.com/kseuv/vivo-de-ontology-extension/wiki
+* Eine Übersetzung der VIVO-Oberfläche befindet sich hier: https://github.com/VIVO-DE/Vitro-languages und https://github.com/VIVO-DE/VIVO-languages
 * Beispieldaten (in Vorbereitung)
 
 # Autoren: 
 
 * Kilian Schmidtner (Referat Forschung und Wissenschaftlicher Nachwuchs, Europa-Universität Viadrina Frankfurt (Oder))
-* Stefan Wolf (Technische Universität Dresden, Sächsische Landes- und Universitätsbibliothek)
+* Stefan Wolff (Technische Universität Dresden, Sächsische Landes- und Universitätsbibliothek)
 
 # Sieh auch
 
