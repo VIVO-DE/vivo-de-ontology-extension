@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    >
+    <!-- Organisationen
+    Alle weiteren Organisationen, die keiner VIVO-Klasse zugeordnet werden können.
+    -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2007744-0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche Forschungsgemeinschaft</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/10041281-6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Society Institute (Budapest)</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2007896-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche UNESCO-Kommission</rdfs:label>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+</rdf:RDF>
