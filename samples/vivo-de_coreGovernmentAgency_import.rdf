@@ -7,11 +7,30 @@
      A unit of government responsible for oversight and regulation of certain activities 
      or the administration and provision of specific services.
     -->
-    <!-- Bundesministerien -->
+    <!-- Bundesministerien 
+        Auswahl entsprechend FörderKatalog
+    -->
     <rdf:Description rdf:about="http://d-nb.info/gnd/5309538-8">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Bildung und Forschung</rdfs:label>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045950157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045949302">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Wirtschaft und Energie</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045949620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Ernährung und Landwirtschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/104595005X">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Verkehr und digitale Infrastruktur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    
     <rdf:Description rdf:about="http://d-nb.info/gnd/2117711-9">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auswärtiges Amt (Deutschland)</rdfs:label>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
