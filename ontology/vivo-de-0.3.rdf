@@ -342,7 +342,7 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
   <!-- Projekte -->
-  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Sonderforschungsbereich">
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#SonderforschungsbereichDFG">
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
