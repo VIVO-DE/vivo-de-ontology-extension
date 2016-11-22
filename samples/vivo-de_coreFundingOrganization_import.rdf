@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    >
+    <!-- (Forschungs-)Förderorganisationen 
+    An organization that provides financial support to individuals or organizations to carry out specified activities.
+    -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2007744-0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche Forschungsgemeinschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingOrganization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2008061-X">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutscher Akademischer Austauschdienst</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingOrganization"/>
+    </rdf:Description>
+</rdf:RDF>

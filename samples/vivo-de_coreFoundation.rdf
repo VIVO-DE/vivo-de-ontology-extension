@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    >
+    <!-- Stiftungen 
+    An institution founded with an endowment to support educational, research, artistic or other charitable activities
+    -->    
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2077501-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerda-Henkel-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/505291-9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert Bosch Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2181940-3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesstiftung zur Aufarbeitung der SED-Diktatur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/6042895-8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Deutsche Zentrum für Luft- und Raumfahrt e.V.</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1071652486">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsch-Polnische Wissenschaftsstiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2140092-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiftung für Deutsch-Polnische Zusammenarbeit</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5146980-7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche Nationalstiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/10055391-6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche Stiftung Friedensforschung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5184210-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwin-Stein-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/37498-2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich-Ebert-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2010888-6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fritz-Thyssen-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2049987-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hans Böckler Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/3004283-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heinrich Böll Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/35055-2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander von Humboldt-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2068659-6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Konrad-Adenauer-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/75100-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Studienstiftung des Deutschen Volkes</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2182328-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosa-Luxemburg-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/10011070-8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiftung Brandenburger Tor</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2140092-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiftung für Deutsch-Polnische Zusammenarbeit (SfDPZ)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5004690-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volkswagen-Stiftung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Foundation"/>
+    </rdf:Description>
+</rdf:RDF>

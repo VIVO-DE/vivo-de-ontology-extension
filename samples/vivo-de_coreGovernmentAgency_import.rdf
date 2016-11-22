@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    >
+    <!-- Politische Organe
+     A unit of government responsible for oversight and regulation of certain activities 
+     or the administration and provision of specific services.
+    -->
+    <!-- Bundesministerien 
+        Auswahl entsprechend FörderKatalog
+    -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5309538-8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Bildung und Forschung</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045950157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045949302">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Wirtschaft und Energie</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1045949620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Ernährung und Landwirtschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/104595005X">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesministerium für Verkehr und digitale Infrastruktur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2117711-9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auswärtiges Amt (Deutschland)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <!-- Länderministerien -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1088875831">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Wissenschaft, Forschung und Kultur (Brandenburg)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>    
+    <rdf:Description rdf:about="http://d-nb.info/gnd/16338065-X">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senatsverwaltung für Bildung, Jugend und Wissenschaft (Berlin)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>     
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1042793271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayerisches Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>  
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1042793271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayerisches Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>  
+    <rdf:Description rdf:about="http://d-nb.info/gnd/16155528-7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Innovation, Wissenschaft und Forschung des Landes Nordrhein-Westfalen</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description> 
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5181675-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description> 
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1065702051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hessisches Ministerium für Wissenschaft und Kunst</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1102277940">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Wissenschaft, Weiterbildung und Kultur (Rheinland-Pfalz)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5055588-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niedersächsisches Ministerium für Wissenschaft und Kultur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5055588-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Niedersächsisches Ministerium für Wissenschaft und Kultur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1081277300">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senatorin für Wissenschaft, Gesundheit und Verbraucherschutz (Bremen)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1077888910">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behörde für Wissenschaft, Forschung und Gleichstellung (Hamburg)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2174978-4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Bildung, Wissenschaft und Kultur (Mecklenburg-Vorpommern)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1088098290">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staatsministerium für Wissenschaft und Kunst (Sachsen)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/16337139-8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministerium für Wirtschaft, Wissenschaft und Digitalisierung (Sachsen-Anhalt)</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/106863913X">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thüringer Ministerium für Wirtschaft, Wissenschaft und Digitale Gesellschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1025455223">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saarland. Ministerium für Bildung und Kultur</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <!-- EU -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5100798-8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europäische Kommission</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1023711-2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Consortium for Political Research</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/5098525-5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europäische Union</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+    </rdf:Description>    
+</rdf:RDF>

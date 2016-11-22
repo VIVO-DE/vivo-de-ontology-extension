@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <!-- Forschungsorganisationen 
+    Any organization (likely also asserted as another class of Organization) with a primary, 
+    ongoing research function, not just through occasional roles
+    -->
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2007744-0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leibniz-Gemeinschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/2019024-4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max-Planck-Gesellschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/1032617063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helmholtz-Gemeinschaft Deutscher Forschungszentren</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://d-nb.info/gnd/39089-6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fraunhofer-Gesellschaft</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+    </rdf:Description>
+</rdf:RDF>
