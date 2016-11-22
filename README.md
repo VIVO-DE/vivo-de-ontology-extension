@@ -41,7 +41,7 @@ Die Erweiterung ist notwendig, da diverse Institutionen, Forschungseinrichtungen
 * Kilian Schmidtner (Referat Forschung und Wissenschaftlicher Nachwuchs, Europa-Universität Viadrina Frankfurt (Oder))
 * Stefan Wolff (Technische Universität Dresden, Sächsische Landes- und Universitätsbibliothek)
 
-# Sieh auch
+# Siehe auch
 
 * Elena Liventsova: [Mapping und Erweiterung der Ontologie des Forschungsinformationssystems VIVO.](https://serwiss.bib.hs-hannover.de/frontdoor/index/index/docId/803)
 
