@@ -6,10 +6,6 @@
     <!-- Organisationen
     Alle weiteren Organisationen, die keiner VIVO-Klasse zugeordnet werden können.
     -->
-    <rdf:Description rdf:about="http://d-nb.info/gnd/2007744-0">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsche Forschungsgemeinschaft</rdfs:label>
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://d-nb.info/gnd/10041281-6">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Society Institute (Budapest)</rdfs:label>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
