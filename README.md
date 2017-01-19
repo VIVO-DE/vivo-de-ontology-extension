@@ -32,7 +32,7 @@ Die Erweiterung ist notwendig, da diverse Institutionen, Forschungseinrichtungen
 
 # Weiteres:
 
-* Erläuterungen zu den Klassen werden im Wiki dokumentiert: https://github.com/kseuv/vivo-de-ontology-extension/wiki
+* Erläuterungen zu den Klassen werden im Wiki dokumentiert: https://github.com/VIVO-DE/vivo-de-ontology-extension/wiki
 * Eine Übersetzung der VIVO-Oberfläche befindet sich hier: https://github.com/VIVO-DE/Vitro-languages und https://github.com/VIVO-DE/VIVO-languages
 * Beispieldaten (in Vorbereitung)
 
