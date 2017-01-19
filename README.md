@@ -9,6 +9,8 @@ Die Erweiterung ist notwendig, da diverse Institutionen, Forschungseinrichtungen
  * _faculty_ ist im Verständnis von VIVO der Lehrkörper, also die Gesamtheit der Lehrenden. Eine Fakultät an einer deutschen Universität ist eine Organisationseinheit zur thematischen Gliederung von Lehrstühlen.
  * _professor_ ist ein Lehrer, ein deutscher Professor hingegen ist (im allgemeinen) ein Inhaber eines Lehrstuhls.
 
+Diskussionen zu Begrifflichkeiten und deren Übersetzung finden sich [im Glossar](https://github.com/VIVO-DE/VIVO-languages/wiki/Glossar).
+
 ## Für die Erweiterungen gelten folgende Ansetzungsregeln:
 
 * Der Klassenname ist deutsch angegeben, wenn es keine englische Entsprechung gibt. 
