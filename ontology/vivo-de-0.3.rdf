@@ -47,7 +47,7 @@
       >vivo-de</vitro:ontologyPrefixAnnot>
     <rdfs:label xml:lang="de">VIVO Core Extension DE</rdfs:label>
   </owl:Ontology>
-  <!-- Organisationseinheiten zur Fächerstrukturierung -->
+  <!-- Organisationseinheiten zur Fächer- und Ausbildungsstrukturierung -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Fakultaet">
     <rdfs:label xml:lang="en-US">Fakultät (de)</rdfs:label>
     <rdfs:label xml:lang="de-DE">Fakultät</rdfs:label>
@@ -83,55 +83,82 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot
       rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lehrstuhl für Kunstgeschichte</obo:IAO_0000112>
+    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lehrstuhl für
+      Kunstgeschichte</obo:IAO_0000112>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Graduiertenkolleg">
     <rdfs:label xml:lang="en-US">Research Training Group</rdfs:label>
-    <rdfs:label xml:lang="de-DE">Graduiertenkolleg</rdfs:label> 
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
+    <rdfs:label xml:lang="de-DE">Graduiertenkolleg</rdfs:label>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur Förderung des wissenschaftliche Nachwuchses</obo:IAO_0000115>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur
+      Förderung des wissenschaftliche Nachwuchses</obo:IAO_0000115>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#GraduiertenkollegDFG">
     <rdfs:label xml:lang="en-US">Research Training Group (DFG)</rdfs:label>
-    <rdfs:label xml:lang="de-DE">Graduiertenkolleg (DFG)</rdfs:label> 
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
+    <rdfs:label xml:lang="de-DE">Graduiertenkolleg (DFG)</rdfs:label>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core/de#Graduiertenkolleg"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur Förderung des wissenschaftliche Nachwuchses; gefördert durch die Deutsche Forschungsgemeinschaft (DFG)</obo:IAO_0000115>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur
+      Förderung des wissenschaftliche Nachwuchses; gefördert durch die Deutsche
+      Forschungsgemeinschaft (DFG)</obo:IAO_0000115>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Graduiertenschule">
     <rdfs:label xml:lang="en-US">Graduate School</rdfs:label>
     <rdfs:label xml:lang="de-DE">Graduiertenschule</rdfs:label>
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur Förderung des wissenschaftliche Nachwuchses</obo:IAO_0000115>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur
+      Förderung des wissenschaftliche Nachwuchses</obo:IAO_0000115>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#GraduiertenschuleDFG">
     <rdfs:label xml:lang="en-US">Graduate School (DFG)</rdfs:label>
     <rdfs:label xml:lang="de-DE">Graduiertenschule (DFG)</rdfs:label>
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core/de#Graduiertenschule"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur Förderung des wissenschaftliche Nachwuchses im Rahmen der Exzellenzinitiative, gefördert durch die Deutsche Forschungsgemeinschaft (DFG)</obo:IAO_0000115>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung zur
+      Förderung des wissenschaftliche Nachwuchses im Rahmen der Exzellenzinitiative, gefördert durch
+      die Deutsche Forschungsgemeinschaft (DFG)</obo:IAO_0000115>
   </owl:Class>
   <!-- Struktureinheiten mit fester Nutzung/Funktion -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#ComputingCenter">
@@ -264,7 +291,9 @@
       rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
-    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An manchen Universtitäten werden wissenschaftlichen von nicht-wissenschaftlichen zentralen Einrichtungen unterschieden. Bei Bedarf können Unterklassen angelegt werden.</vitro:descriptionAnnot>
+    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An manchen
+      Universtitäten werden wissenschaftlichen von nicht-wissenschaftlichen zentralen Einrichtungen
+      unterschieden. Bei Bedarf können Unterklassen angelegt werden.</vitro:descriptionAnnot>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#ServiceUnit">
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot
@@ -289,107 +318,110 @@
   <!-- research: Publikationstypen -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#TechnischerBericht">
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein technischer Bericht (TU Dresden)</obo:IAO_0000115>
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein technischer Bericht
+      (TU Dresden)</obo:IAO_0000115>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Report"/>
     <rdfs:label xml:lang="en-US">Technical Report</rdfs:label>
     <rdfs:label xml:lang="de-DE">Technischer Bericht</rdfs:label>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Forschungsbericht">
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayLimitAnnot>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-1</vitro:displayRankAnnot>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:label xml:lang="en-US">Research Report</rdfs:label>
     <rdfs:label xml:lang="de-DE">Forschungsbericht</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Report"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein Bericht zu einem Forschungsprojekt (TU Dresden), bzw. ein Rechenschaftsbericht einer Institution (EUV Frankfurt Oder).</obo:IAO_0000115>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein Bericht zu einem
+      Forschungsprojekt (TU Dresden), bzw. ein Rechenschaftsbericht einer Institution (EUV Frankfurt
+      Oder).</obo:IAO_0000115>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Dissertation">
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Thesis"/>
     <rdfs:label xml:lang="en-US">PhD Thesis</rdfs:label>
     <rdfs:label xml:lang="de-DE">Dissertation</rdfs:label>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayRankAnnot>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >Die wissenschaftliche Qualifikationsschrift zur Erlangung eines Doktorgrades</obo:IAO_0000115>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die wissenschaftliche
+      Qualifikationsschrift zur Erlangung eines Doktorgrades</obo:IAO_0000115>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Habilitationsschrift">
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayRankAnnot>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >Qualifikationsschrift im Rahmen einer Habilitation</obo:IAO_0000115>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifikationsschrift im
+      Rahmen einer Habilitation</obo:IAO_0000115>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:label xml:lang="en-US">Habilitationsschrift (de)</rdfs:label>
     <rdfs:label xml:lang="de-DE">Habilitationsschrift</rdfs:label>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
     <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Thesis"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
   <!-- Projekte -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#SonderforschungsbereichDFG">
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGroupresearch"/>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayRankAnnot>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >Langfristiges Projekt zur Grundlagenforschung, meist DFG gefördert; interdisziplinäre Kooperation</obo:IAO_0000115>
-    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SFB/Transregio 79: Werkstoffe für die Geweberegeneration im systemisch erkrankten Knochen </obo:IAO_0000112>
-    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschreibung für Ontologie-Editoren</vitro:descriptionAnnot>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:label xml:lang="en-US">Collaborative Research Center (de)</rdfs:label>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Langfristiges Projekt
+      zur Grundlagenforschung, meist DFG gefördert; interdisziplinäre Kooperation</obo:IAO_0000115>
+    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SFB/Transregio 79:
+      Werkstoffe für die Geweberegeneration im systemisch erkrankten Knochen </obo:IAO_0000112>
+    <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beschreibung für
+      Ontologie-Editoren</vitro:descriptionAnnot>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:label xml:lang="en-US">Collaborative Research Center</rdfs:label>
     <rdfs:label xml:lang="de-DE">Sonderforschungsbereich</rdfs:label>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
-  <!-- Data Properties -->
-  <!-- group: identity -->
-  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de#urn">
-    <rdfs:label xml:lang="en-US">URN</rdfs:label>
-    <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
-    <vitro:publicDescriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uniform Resource Name</vitro:publicDescriptionAnnot>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de#oa_green_url">
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/uri"/>
-    <vitro:publicDescriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eine URL zu einem Dokument, das nach Maßstäben des Grünen Wegs (Selbstveröffentlichung) als Open Access Publikation veröffentlicht ist. </vitro:publicDescriptionAnnot>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:label xml:lang="en-US">Green Open Access URL</rdfs:label>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-  </owl:DatatypeProperty>
+  <!-- Promotion/Habilitation -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Promotion">
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >die Hochschulprüfung zur Erlangung eines Doktorgrades</vitro:descriptionAnnot>
-    <rdfs:label xml:lang="en-US">Promotion</rdfs:label>
+      >die Hochschulprüfung zur Erlangung eines Doktorgrades</vitro:descriptionAnnot>
+    <rdfs:label xml:lang="en-US">Promotion (de)</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Promotion</rdfs:label>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayLimitAnnot>
+      >-1</vitro:displayLimitAnnot>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayRankAnnot>
+      >-1</vitro:displayRankAnnot>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
@@ -397,44 +429,84 @@
   </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Habilitation">
     <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <rdfs:label xml:lang="en-US">Habilitation</rdfs:label>
+    <rdfs:label xml:lang="en-US">Habilitation (de)</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Habilitation</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Project"/>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayRankAnnot>
+      >-1</vitro:displayRankAnnot>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGroupactivities"/>
     <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >höchstrangige Hochschulprüfung zur Feststellung der Lehrbefähigung in einem wissenschaftlichen Fach</obo:IAO_0000115>
+      >höchstrangige Hochschulprüfung zur Feststellung der Lehrbefähigung in einem wissenschaftlichen Fach</obo:IAO_0000115>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayLimitAnnot>
+      >-1</vitro:displayLimitAnnot>
   </owl:Class>
-    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istDFGFachgebietVon">
+  <!-- Data Properties -->
+  <!-- group: identity -->
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de#urn">
+    <rdfs:label xml:lang="en-US">URN</rdfs:label>
+    <vitro:inPropertyGroupAnnot
+      rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
+    <vitro:publicDescriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uniform
+      Resource Name</vitro:publicDescriptionAnnot>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de#oa_green_url">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/uri"/>
+    <vitro:publicDescriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eine URL zu
+      einem Dokument, das nach Maßstäben des Grünen Wegs (Selbstveröffentlichung) als Open Access
+      Publikation veröffentlicht ist. </vitro:publicDescriptionAnnot>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:inPropertyGroupAnnot
+      rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupidentifiers"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:label xml:lang="en-US">Green Open Access URL</rdfs:label>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istDFGFachgebietVon">
     <owl:inverseOf>
       <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#hatDFGFachgebiet"/>
     </owl:inverseOf>
     <rdfs:label xml:lang="en-US">DFG-Fachgebiet von</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#relates"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayLimitAnnot>
+      >-1</vitro:displayLimitAnnot>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#hatForschungsprofillinie">
     <rdfs:label xml:lang="en-US">Forschungsprofillinie</rdfs:label>
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istForschungsprofillinieVon"/>
+      <owl:ObjectProperty
+        rdf:about="http://vivoweb.org/ontology/core/de#istForschungsprofillinieVon"/>
     </owl:inverseOf>
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</vitro:selectFromExistingAnnot>
-    <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupresearch"/>
+      >true</vitro:selectFromExistingAnnot>
+    <vitro:inPropertyGroupAnnot
+      rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupresearch"/>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#hasResearchArea"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istForschungsprofillinieVon">
     <rdfs:label xml:lang="en-US">Forschungsprofillinie von</rdfs:label>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >-1</vitro:displayLimitAnnot>
+      >-1</vitro:displayLimitAnnot>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#researchAreaOf"/>
     <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de#hatForschungsprofillinie"/>
   </owl:ObjectProperty>
@@ -442,11 +514,15 @@
     <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de#istDFGFachgebietVon"/>
     <rdfs:label xml:lang="en-US">DFG-Fachgebiet</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#relatedBy"/>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</vitro:selectFromExistingAnnot>
-    <vitro:inPropertyGroupAnnot rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupoverview"/>
+      >true</vitro:selectFromExistingAnnot>
+    <vitro:inPropertyGroupAnnot
+      rdf:resource="http://vivoweb.org/ontology#vitroPropertyGroupoverview"/>
   </owl:ObjectProperty>
 </rdf:RDF>
