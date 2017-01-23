@@ -3,7 +3,7 @@
   xmlns:aktp="http://www.aktors.org/ontology/portal#"
   xmlns:owl2="http://www.w3.org/2006/12/owl2-xml#" xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:vivoc="http://vivo.library.cornell.edu/ns/0.1#"
-  xmlns:vivo-de="http://vivoweb.org/ontology/core/de#"
+  xmlns:vivo-tu-dresden="http://vivoweb.org/ontology/core/de-tud#"
   xmlns:event="http://purl.org/NET/c4dm/event.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#"
   xmlns:wcmc="http://weill.cornell.edu/vivo/ontology/wcmc#" xmlns:vann="http://purl.org/vocab/vann/"
   xmlns:socsci="http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#"
@@ -48,7 +48,7 @@
     <rdfs:label xml:lang="de">VIVO-ISF Ontology Extension - TU Dresden</rdfs:label>
   </owl:Ontology>
   <!-- research: Publikationstypen -->
-  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#TechnischerBericht">
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de-tud#TechnischerBericht">
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
     <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein technischer Bericht</obo:IAO_0000115>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
@@ -65,7 +65,7 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot
       rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:Class>
-  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Forschungsbericht">
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de-tud#Forschungsbericht">
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot
@@ -86,7 +86,7 @@
   </owl:Class>
   <!-- Data Properties -->
   <!-- group: identity -->
-  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de#oa_green_url">
+  <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#oa_green_url">
     <rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/uri"/>
     <vitro:publicDescriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eine URL zu
       einem Dokument, das nach Maßstäben des Grünen Wegs (Selbstveröffentlichung) als Open Access
@@ -103,20 +103,20 @@
       rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
     <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
   </owl:DatatypeProperty>
-  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istDFGFachgebietVon">
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#istDFGFachgebietVon">
     <owl:inverseOf>
-      <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#hatDFGFachgebiet"/>
+      <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#hatDFGFachgebiet"/>
     </owl:inverseOf>
     <rdfs:label xml:lang="en-US">DFG-Fachgebiet von</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#relates"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#hatForschungsprofillinie">
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#hatForschungsprofillinie">
     <rdfs:label xml:lang="en-US">Forschungsprofillinie</rdfs:label>
     <owl:inverseOf>
       <owl:ObjectProperty
-        rdf:about="http://vivoweb.org/ontology/core/de#istForschungsprofillinieVon"/>
+        rdf:about="http://vivoweb.org/ontology/core/de-tud#istForschungsprofillinieVon"/>
     </owl:inverseOf>
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
       >true</vitro:selectFromExistingAnnot>
@@ -130,15 +130,15 @@
     <vitro:hiddenFromPublishBelowRoleLevelAnnot
       rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#istForschungsprofillinieVon">
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#istForschungsprofillinieVon">
     <rdfs:label xml:lang="en-US">Forschungsprofillinie von</rdfs:label>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#researchAreaOf"/>
-    <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de#hatForschungsprofillinie"/>
+    <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de-tud#hatForschungsprofillinie"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#hatDFGFachgebiet">
-    <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de#istDFGFachgebietVon"/>
+  <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de-tud#hatDFGFachgebiet">
+    <owl:inverseOf rdf:resource="http://vivoweb.org/ontology/core/de-tud#istDFGFachgebietVon"/>
     <rdfs:label xml:lang="en-US">DFG-Fachgebiet</rdfs:label>
     <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#relatedBy"/>
     <vitro:hiddenFromDisplayBelowRoleLevelAnnot
