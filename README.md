@@ -4,25 +4,25 @@ vivo-de ist eine Erweiterung der Ontologie [vivo-isf-public](https://github.com/
 
 Die Erweiterung ist notwendig, da diverse Institutionen, Forschungseinrichtungen, Förderlinien und Rollen sowie deren Beziehungen untereinander im amerikanischen Uni-System nicht vorkommen. 
 
-* Insofern gibt es für diese auch keine adäquaten englischen Begriffe. Beispiel: Junior Professor
+* Insofern gibt es für diese auch keine adäquaten englischen Begriffe. Beispiel: Juniorprofessor
 * In manchen Fällen gibt es "false friends", also scheinbare Entsprechungen, die aber nicht das gleiche meinen: 
  * _faculty_ ist im Verständnis von VIVO der Lehrkörper, also die Gesamtheit der Lehrenden. Eine Fakultät an einer deutschen Universität ist eine Organisationseinheit zur thematischen Gliederung von Lehrstühlen.
  * _professor_ ist ein Lehrer, ein deutscher Professor hingegen ist (im allgemeinen) ein Inhaber eines Lehrstuhls.
 
-Diskussionen zu Begrifflichkeiten und deren Übersetzung finden sich [im Glossar](https://github.com/VIVO-DE/VIVO-languages/wiki/Glossar).
+Diskussionen zu Begriffen in der Ontologie werden im [wiki](https://github.com/VIVO-DE/vivo-de-ontology-extension/wiki) und deren Einflüsse auf die Übersetzungsdateien [im einem Glossar](https://github.com/VIVO-DE/VIVO-languages/wiki/Glossar) dokumentiert.
 
 ## Für die Erweiterungen gelten folgende Ansetzungsregeln:
 
 * Der Klassenname ist deutsch angegeben, wenn es keine englische Entsprechung gibt. 
-* Der Klassenname ist englisch, wenn es eine Entsprechung gibt, die Klasse aber in VIVO-ISF fehlt: z.B. Archiv/Archiv, Rechenzentrum/Computing Center
+* Der Klassenname ist englisch, wenn es eine Entsprechung gibt, die Klasse aber in VIVO-ISF fehlt: z.B. Archiv/Archive, Rechenzentrum/Computing Center
 * Labels werden konsequent für beide Sprachen angegeben:
  * Das Label bleibt deutsch und wird mit dem Kürzel (de) versehen, wenn es keine englische Entsprechung gibt. Beispiel: Junior Professor
  * Das Label wird übersetzt, wenn eine dokumentierte Übersetzung vorhanden ist. Beispiel: Sonderforschungsbereich und Collaborative Research Center. 
-  * Ist der Begriff auf den ersten Blick sehr allgemein, meint aber eine spezifische Institution, wird es mit einem klärenden Kürzel versehen. Beispiel: Forschergruppe / Research Unit sind DFG-Förderprogramme. In manchen Fällen sind diese als eigene Klassen eingeführt, z.B. Graduiertenschulen und DFG-Graduiertenschulen.
+ * Ist der Begriff auf den ersten Blick sehr allgemein, meint aber eine spezifische Institution, wird er mit einem klärenden Kürzel versehen. Beispiel: Forschergruppe / Research Unit ist ein DFG-Förderprogramm. In manchen Fällen sind diese als eigene Klassen eingeführt, z.B. Graduiertenschulen und DFG-Graduiertenschulen.
 
 # Vorgehen und Stand der Entwicklung
 
-* Die neu eingeführten Klasse sind durch Vererbung bereits vorhandener Klassen in die Ontologie eingefügt.
+* Die neu eingeführten Klassen sind durch Vererbung bereits vorhandener Klassen in die Ontologie eingefügt.
 * Die Klassen wurden im VIVO-Editor angelegt, um sofort die Sichtbarkeit und Verwendbarkeit in VIVO überprüfen zu können.
 
 # Installation:
