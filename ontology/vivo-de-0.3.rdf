@@ -167,24 +167,6 @@
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
   </owl:Class>
   <!-- research: Publikationstypen -->
-  <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#TechnischerBericht">
-    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
-    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein technischer Bericht
-      (TU Dresden)</obo:IAO_0000115>
-    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-      >-1</vitro:displayRankAnnot>
-    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-      >-1</vitro:displayLimitAnnot>
-    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Report"/>
-    <rdfs:label xml:lang="en-US">Technical Report</rdfs:label>
-    <rdfs:label xml:lang="de-DE">Technischer Bericht</rdfs:label>
-    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
-      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
-      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-    <vitro:hiddenFromPublishBelowRoleLevelAnnot
-      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
-  </owl:Class>
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Dissertation">
     <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouppublications"/>
     <vitro:hiddenFromPublishBelowRoleLevelAnnot
