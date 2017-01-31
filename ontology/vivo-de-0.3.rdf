@@ -268,9 +268,10 @@
   <!-- - Promotion/Habilitation -->
   <owl:Class rdf:about="http://vivoweb.org/ontology/core/de#Promotion">
     <vitro:descriptionAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-      >Das wissenschaftliche Vorhaben zur Erlangung eines Doktorgrades</vitro:descriptionAnnot>
+      >Das Vorhaben zur Erlangung eines Doktorgrades</vitro:descriptionAnnot>
     <rdfs:label xml:lang="en-US">Promotion (de)</rdfs:label>
     <rdfs:label xml:lang="de-DE">Promotion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Project"/>
     <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
       >-1</vitro:displayLimitAnnot>
     <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
