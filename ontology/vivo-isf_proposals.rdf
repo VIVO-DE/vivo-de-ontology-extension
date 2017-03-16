@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:scires="http://vivoweb.org/ontology/scientific-research#"
+  xmlns:aktp="http://www.aktors.org/ontology/portal#"
+  xmlns:owl2="http://www.w3.org/2006/12/owl2-xml#" xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:vivoc="http://vivo.library.cornell.edu/ns/0.1#"
+  xmlns:vivo-de="http://vivoweb.org/ontology/core/proposals#"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+  xmlns:wcmc="http://weill.cornell.edu/vivo/ontology/wcmc#" xmlns:vann="http://purl.org/vocab/vann/"
+  xmlns:socsci="http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:far="http://vitro.mannlib.cornell.edu/ns/reporting#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#"
+  xmlns:ocrer="http://purl.org/net/OCRe/research.owl#"
+  xmlns:pubmed="http://vitro.mannlib.cornell.edu/ns/pubmed#"
+  xmlns:wos="http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:app="http://eagle-i.org/ont/app/1.0/"
+  xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:fabio="http://purl.org/spar/fabio/"
+  xmlns:config="http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#"
+  xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+  xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
+  xmlns:ocresd="http://purl.org/net/OCRe/study_design.owl#"
+  xmlns:sce="http://vivoweb.org/ontology/SchoolOfContinuingEducation#"
+  xmlns:stars="http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/"
+  xmlns:hr="http://vivo.cornell.edu/ns/hr/0.9/hr.owl#"
+  xmlns:local="http://vivo.cornell.edu/ontology/local#"
+  xmlns:geo="http://aims.fao.org/aos/geopolitical.owl#" xmlns:c4o="http://purl.org/spar/c4o/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:skos2="http://www.w3.org/2008/05/skos#"
+  xmlns:vivo="http://vivoweb.org/ontology/core#"
+  xmlns:vitro-public="http://vitro.mannlib.cornell.edu/ns/vitro/public#"
+  xmlns:pvs="http://vivoweb.org/ontology/provenance-support#"
+  xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:aka="http://vivoweb.org/ontology/aka#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+  xmlns:scirr="http://vivoweb.org/ontology/scientific-research-resource#"
+  xmlns:cito="http://purl.org/spar/cito/" xmlns:afn="http://jena.hpl.hp.com/ARQ/function#"
+  xmlns:cce="http://vivoweb.org/ontology/cornell-cooperative-extension#"
+  xmlns:mann="http://vivo.cornell.edu/ns/mannadditions/0.1#"
+  xmlns:acti="http://vivoweb.org/ontology/activity-insight#"
+  xmlns:ospcu="http://vivoweb.org/ontology/cu-vivo-osp#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:display="http://vitro.mannlib.cornell.edu/ontologies/display/1.1#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <owl:Ontology rdf:about="http://vivoweb.org/ontology/core/proposals">
+    <vitro:ontologyPrefixAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >vivo-isf_candidates</vitro:ontologyPrefixAnnot>
+    <rdfs:label xml:lang="de">VIVO-ISF Proposals DE-Community</rdfs:label>
+  </owl:Ontology>
+  <!-- Struktureinheiten mit fester Nutzung/Funktion -->
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#ComputingCenter">
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <rdfs:label xml:lang="en-US">Computing Center</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Rechenzentrum</rdfs:label>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+      >Hochschulrechenzentrum</obo:IAO_0000112>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Institution zur
+      Verwaltung der IT-Infrastruktur</obo:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#LanguageCenter">
+    <rdfs:label xml:lang="en-US">Language Center</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Sprachenzentrum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zentrum zur
+      Sprachausbildung mit Sprachlabor und Unterrichtsräumen</obo:IAO_0000115>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#Archive">
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+    <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bundesarchiv,
+      Landesarchiv, Stadtarchiv, Universitätsarchiv</obo:IAO_0000112>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:label xml:lang="en-US">Archive</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Archiv</rdfs:label>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein
+      Archiv</obo:IAO_0000115>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+  </owl:Class>
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#BotanicalGarden">
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sammlung zur Flora,
+      Museumsähnlich, Studiensammlung</obo:IAO_0000115>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+    <rdfs:label xml:lang="en-US">Botanical Garden</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Botanischer Garten</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#MediaCentre">
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einrichtung an der
+      Medien erstellt und verwaltet werden, z.B. Ton- und Filmstudio</obo:IAO_0000115>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdfs:label xml:lang="en-US">Media Center</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Medienzentrum</rdfs:label>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://vivoweb.org/ontology/core/proposals#SportsCenter">
+    <rdfs:label xml:lang="en-US">Sportscenter</rdfs:label>
+    <rdfs:label xml:lang="de-DE">Sportzentrum</rdfs:label>
+    <vitro:inClassGroup rdf:resource="http://vivoweb.org/ontology#vitroClassGrouporganizations"/>
+    <vitro:displayLimitAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayLimitAnnot>
+    <vitro:displayRankAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+      >-1</vitro:displayRankAnnot>
+    <vitro:hiddenFromDisplayBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:prohibitedFromUpdateBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <vitro:hiddenFromPublishBelowRoleLevelAnnot
+      rdf:resource="http://vitro.mannlib.cornell.edu/ns/vitro/role#public"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </owl:Class>
+</rdf:RDF>
