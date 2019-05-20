@@ -305,7 +305,7 @@
     <vitro:selectFromExistingAnnot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</vitro:selectFromExistingAnnot>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    <rdfs:label xml:lang="en-US">involved in</rdfs:label>
+    <rdfs:label xml:lang="en-US">engaged in</rdfs:label>
     <rdfs:label xml:lang="de-DE">beteiligt an</rdfs:label>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core/de#kooperationspartner">
@@ -317,7 +317,7 @@
     >true</vitro:selectFromExistingAnnot>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     <rdfs:label xml:lang="de-DE">Kooperationspartner</rdfs:label>
-    <rdfs:label xml:lang="en-US">Collaborators</rdfs:label>
+    <rdfs:label xml:lang="en-US">collaborating organization</rdfs:label>
   </owl:ObjectProperty>
   <!-- Data Properties -->
   <!-- group: identity -->
